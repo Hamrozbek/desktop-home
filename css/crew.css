@@ -1,0 +1,43 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bellefair-v14-latin-regular.woff2') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bellefair", sans-serif;
+    font-family: "Barlow", sans-serif;
+    background-image: url(../images/crew-bacroun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containers {
+    max-width: 1147px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-item {
+    backdrop-filter: blur(81.54845428466797px);
+    background: #FFFFFF0A;
+
+}
+
+.item-h2 {
+    font-family: "Bellefair", sans-serif;
+}

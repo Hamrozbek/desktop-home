@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/technalogy.css">
+    <title>technalogy</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+
+<body>
+    <header class="pt-[40px] pl-[55px] flex items-center justify-between">
+        <a href="/">
+            <img src="./images/logo.svg" alt="Site Logo" width="48" height="48">
+        </a>
+
+        <nav
+            class="text-item w-[830px] relative bg-[#FFFFFF0A] header-navbar py-[38px] pl-[123px] flex items-center gap-[48px]">
+            <span
+                class="w-[473px] absolute top-0 bottom-0 opacity-[4%] my-auto h-[2px] bg-[#FFFFFF] left-[-396px]"></span>
+
+            <a class="flex items-center gap-[12px] text-white relative group uppercase tracking-[2px]
+            " href="./index.html">
+                <strong class="font-bold">00</strong>
+                <p class="font-normal">HOME</p>
+                <span
+                    class="absolute left-0 bottom-[-35px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300"></span>
+
+            </a>
+
+            <a class="flex items-center gap-[12px] text-white relative group uppercase tracking-[2px]
+            " href="./destination.html">
+                <strong class="font-bold">01</strong>
+                <p class="font-normal">DESTINATION</p>
+                <span
+                    class="absolute left-0 bottom-[-35px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300"></span>
+
+            </a>
+
+            <a class="flex items-center gap-[12px] text-white relative group uppercase tracking-[2px]
+            " href="./crew.html">
+                <strong class="font-bold">03</strong>
+                <p class="font-normal">CREW</p>
+                <span
+                    class="absolute left-0 bottom-[-35px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300"></span>
+
+            </a>
+
+            <a class="flex items-center gap-[12px] text-white relative group uppercase tracking-[2px]
+            " href="/">
+                <strong class="font-bold">04</strong>
+                <p class="font-normal">TECHNOLOGY</p>
+                <span
+                    class="absolute left-0 bottom-[-35px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300"></span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="flex gap-[20px]">
+                <div class="containers">
+                    <div class="pt-[76px]">
+                        <div class="flex gap-[28px] ">
+                            <span class="font-bold text-[28px] text-[#FFFFFF] opacity-25">03</span>
+                            <span class="font-normal text-[28px] text-[#FFFFFF] ">SPACE LAUNCH 101</span>
+                        </div>
+                    </div>
+                    <div class="pt-[159px] flex gap-[80px] pb-[214px]">
+                        <div class="flex flex-col gap-[32px]">
+                            <a href="#">
+                                <span
+                                    class="span w-[80px] h-[80px] border border-white bg-[#0B0D17] text-[#FFFFFF]  rounded-full flex items-center justify-center font-normal text-[32px]  hover:bg-white hover:text-black transition duration-300">1</span>
+                            </a>
+                            <a href="technalogy-b.html">
+                                <span
+                                    class="span w-[80px] h-[80px]  border border-white bg-[#0B0D17] text-[#FFFFFF] rounded-full flex items-center justify-center font-normal text-[32px] hover:bg-white hover:text-black transition duration-300">2</span>
+                            </a>
+                            <a href="./technalogy-c.html">
+                                <span
+                                    class="span w-[80px] h-[80px] border border-white bg-[#0B0D17] text-[#FFFFFF] rounded-full flex items-center justify-center font-normal text-[32px] hover:bg-white hover:text-black transition duration-300">3</span>
+                            </a>
+                        </div>
+                        <div>
+                            <span class="font-normal text-[16px] text-[#D0D6F9]">THE TERMINOLOGY…</span>
+                            <h2 class="span font-normal text-[56px] text-[#FFFFFF] pt-[11px]">LAUNCH VEHICLE</h2>
+                            <p class="w-[444px] font-normal text-[18px] text-[#D0D6F9] pt-[17px]">A launch vehicle or
+                                carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's
+                                surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most
+                                powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on
+                                the launch pad!</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="pt-[136px] pb-[101px]" src="./images/technalogy-img.jpg" alt="technalogy" width="515"
+                    height="527">
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
