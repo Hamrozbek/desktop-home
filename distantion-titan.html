@@ -16,15 +16,15 @@
 </head>
 
 <body>
-    <header class="pt-[40px] pl-[55px] flex items-center justify-between">
+    <header class="xl:pt-[40px] md:pl-[39px] xl:pl-[55px] flex items-center justify-between">
         <a href="/">
             <img src="./images/logo.svg" alt="Site Logo" width="48" height="48">
         </a>
 
         <nav
-            class="text-item w-[830px] relative bg-[#FFFFFF0A] header-navbar py-[38px] pl-[123px] flex items-center gap-[48px]">
+            class="text-item xl:w-[830px] relative bg-[#FFFFFF0A] header-navbar py-[38px] md:pl-[48px] xl:pl-[123px] md:pr-[38px] flex items-center md:gap-[37px] xl:gap-[48px]">
             <span
-                class="w-[473px] absolute top-0 bottom-0 opacity-[4%] my-auto h-[2px] bg-[#FFFFFF] left-[-396px]"></span>
+                class="xl:w-[473px] absolute top-0 bottom-0 opacity-[4%] my-auto h-[2px] bg-[#FFFFFF] left-[-396px]"></span>
 
             <a class="flex items-center gap-[12px] text-white relative group uppercase tracking-[2px]
             " href="./index.html" target="_blank">
@@ -64,35 +64,38 @@
     </header>
     <main>
         <section>
-            <div class="containers flex justify-between">
-                <div class="pt-[76px]">
-                    <div class="flex gap-[28px] ">
-                        <span class="font-bold text-[28px] text-[#FFFFFF] opacity-25">01</span>
-                        <span class="font-normal text-[28px] text-[#FFFFFF] pb-[64px]">Pick your destination</span>
+            <div class="containers xl:flex justify-between">
+                <div class="md:pt-[40px] xl:pt-[76px]">
+                    <div class="flex md:gap-[16px] xl:gap-[28px] md:pl-[20px] xl:pl-0">
+                        <span class="font-bold md:text-[20px] xl:text-[28px] text-[#FFFFFF] opacity-25">01</span>
+                        <span class="font-normal md:text-[20px] xl:text-[28px] text-[#FFFFFF] pb-[64px]">Pick your
+                            destination</span>
                     </div>
-                    <img class="moon" src="./images/titan.png" alt="moon" width="445" height="445">
+                    <div class="md:mx-auto md:w-[300px] md:h-[300px] xl:w-[445px] xl:h-[445px]">
+                        <img class="moon" src="./images/titan.png" alt="moon" width="445" height="445">
+                    </div>
                 </div>
-                <div class="pt-[174px]">
-                    <div class="flex gap-[32px]">
-                        <a href="./destination.html" target="_blank" class="relative group uppercase tracking-[2px]">
+                <div class="md:pt-[53px] pt-[174px] xl:w-[445px] md:w-[550px] md:mx-auto md:text-center xl:text-start">
+                    <div class="flex xl:gap-[32px] md:items-center xl:pl-0 md:pl-[100px] xl:pr-0 md:pr-[100px]">
+                        <a href="./destination.html" target="_blank" class="relative group uppercase tracking-[2px] md:mx-auto xl:mx-0">
                             <span class="font-normal text-[16px] text-[#FFFFFF]">MOON</span>
                             <span
                                 class="absolute left-0 bottom-[-12px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300">
                             </span>
                         </a>
-                        <a href="./destination-mars.html" target="_blank" class="relative group uppercase tracking-[2px]">
+                        <a href="./destination-mars.html" target="_blank" class="relative group uppercase tracking-[2px] md:mx-auto xl:mx-0">
                             <span class="font-normal text-[16px] text-[#FFFFFF]">MARS</span>
                             <span
                                 class="absolute left-0 bottom-[-12px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300">
                             </span>
                         </a>
-                        <a href="./distination-europa.html" target="_blank" class="relative group uppercase tracking-[2px]">
+                        <a href="./distination-europa.html" target="_blank" class="relative group uppercase tracking-[2px] md:mx-auto xl:mx-0">
                             <span class="font-normal text-[16px] text-[#FFFFFF]">EUROPA</span>
                             <span
                                 class="absolute left-0 bottom-[-12px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300">
                             </span>
                         </a>
-                        <a href="#" class="relative group uppercase tracking-[2px]">
+                        <a href="#" class="relative group uppercase tracking-[2px] md:mx-auto xl:mx-0">
                             <span class="font-normal text-[16px] text-[#FFFFFF]">TITAN</span>
                             <span
                                 class="absolute left-0 bottom-[-12px] w-full h-[3px] bg-white scale-x-0 group-hover:scale-x-100 origin-center transition-transform duration-300">
@@ -101,16 +104,16 @@
 
                     </div>
                     <h2 class="font-h2 font-normal text-[100px] text-[#FFFFFF] pt-[37px] pb-[14px]">TITAN</h2>
-                    <p class="w-[444px] font-normal text-[18px] text-[#D0D6F9] pb-[54px]">The only moon known to have a
+                    <p class="md:w-[573px] xl:w-[444px] font-normal text-[18px] text-[#D0D6F9] pb-[54px]">The only moon known to have a
                         dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees
                         colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
                     <div class="border-t border-gray-500 opacity-30 my-4"></div>
-                    <div class="flex gap-[79px] pt-[28px] pb-[118px]">
-                        <div>
+                    <div class="flex gap-[79px] pt-[28px] md:pb-[62px] xl:pb-[118px]">
+                        <div class="md:mx-auto xl:mx-0">
                             <p class="font-normal text-[14px] text-[#D0D6F9] pb-[12px]">AVG. DISTANCE</p>
                             <span class="font-h2 font-normal text-[28px] text-[#FFFFFF]">1.6 BIL. km</span>
                         </div>
-                        <div>
+                        <div class="md:mx-auto xl:mx-0">
                             <p class="font-normal text-[14px] text-[#D0D6F9] pb-[12px]">Est. travel time</p>
                             <span class="font-h2 font-normal text-[28px] text-[#FFFFFF]">7 years</span>
                         </div>

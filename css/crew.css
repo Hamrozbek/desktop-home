@@ -25,7 +25,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+@media (max-width:996px){
+    body {
+        font-family: "Bellefair", sans-serif;
+        font-family: "Barlow", sans-serif;
+        background-image: url(../images/crew-tablet-a.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 .containers {
     max-width: 1147px;
     margin: 0 auto;

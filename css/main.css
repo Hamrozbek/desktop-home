@@ -26,6 +26,16 @@ body {
     background-size: cover;
 }
 
+@media (max-width:996px){
+    body {
+        font-family: "Bellefair", sans-serif;
+        font-family: "Barlow", sans-serif;
+        background-image: url(../images/space-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
 .containers {
     max-width: 1147px;
     margin: 0 auto;
@@ -41,3 +51,4 @@ body {
 .item-h2 {
     font-family: "Bellefair", sans-serif;
 }
+
